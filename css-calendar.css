@@ -492,7 +492,7 @@ select option:hover {
 	--isLeapYear: max(min(var(--centuryLeap), var(--L2DLeap)), min(var(--L2DLeap), 1 - var(--L2DDbl0)));
 	
 	/* Calculate month value with leap year taken into consideration */
-	/* Essentially monthKey - isLeapYear * monthLeap, aka: monthKey - MIN(isLeapYear, monthLeap)
+	/* Essentially monthKey - isLeapYear * monthLeap, aka: monthKey - MIN(isLeapYear, monthLeap) */
 
 	--monthKeyRevised: max(var(--monthKey) - min(var(--isLeapYear), var(--monthLeap)), 0);
 	
