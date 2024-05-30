@@ -547,15 +547,6 @@ select option:hover {
 }
 
 #cpu:after {
-	/* 	content: "L2Ddiv4m7: " counter(L2Ddiv4m7) " \A monthKey: "counter(monthKey) " \A monthLeap: "counter(
-			monthLeap
-		)
-		" \A isLeapYear: "counter(isLeapYear) " \A monthKeyRevised: "counter(
-			monthKeyRevised
-		)
-		" \A centuryKey: "counter(centuryKey) " \A L2Dm7: "counter(L2Dm7) "\A preMod7: "counter(
-			preMod7
-		) " \A DOW: "counter(DOW); */
 	content: 
 			"centuryKey: "	counter(centuryKey) "\A"
 			"centuryLeap: " counter(centuryLeap) "\A"
