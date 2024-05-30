@@ -1,4 +1,4 @@
-# Updated CSS Calendar
+# Updated CSS/HTML Only Calendar
 This is an updated instance of the CSS Calendar using :has, mod(), min() and max() functions; but no JavaScript...
 A Pure CSS/HTML functional calendar that can correctly display months from Jan 1800 to Dec 2999, using no JavaScript.
 
